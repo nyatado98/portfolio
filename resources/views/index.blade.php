@@ -38,7 +38,7 @@
 	<div class="row">
 		<div class="col-md-4 mt-5 ">
 			<h3>HI THERE ......</h3>
-			<h4>I'am Dan Ndong</h4>
+			<h4>I'am Dan Nyatado Ndong</h4>
 			<h6>A Software Engineer.</h6>
 			<p>I'm a professional software developer with front and backend development skills based in Eldoret kenya.</p>
 			<a href="mailto:danndong080@gmail.com"><input type="button" name="submit" value="Hire Me." class="btn"></a>
