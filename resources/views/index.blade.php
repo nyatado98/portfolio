@@ -42,6 +42,7 @@
 			<h6>A Software Engineer.</h6>
 			<p>I'm a professional software developer with front and backend development skills based in Eldoret kenya.</p>
 			<a href="mailto:danndong080@gmail.com"><input type="button" name="submit" value="Hire Me." class="btn"></a>
+            <a href="{{url('download')}}" class="btn text-dark font-weight-bold">Download Resume</a>
 		</div>
 		<div class="col-md-6">
 			<img src="images/image.jpg" class="img-fluid">

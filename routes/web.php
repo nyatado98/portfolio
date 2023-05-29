@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Comment;
+use App\Http\Controllers\Download;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,4 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('comments',[Comment::class, 'comments']);
+Route::get('download',[Download::class,'download']);
