@@ -12,7 +12,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 		<div class="heade">
-			<a href="#" class="home" >DanTECH</a>
+			<a href="#" class="home" style="text-decoration: none" onmouseover="this.style.color='white'" onmouseout="this.style.color='lime'">DanTECH</a>
 		</div>
 		 <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -81,6 +81,7 @@
             <h5 class="text-center text-white">Cyber Management System</h5>
             <div class="card-body">
             <img src="{{asset('images/cyber.png')}}" class="img-fluid" alt="">
+            {{-- onmouseover="this.style.opacity='.5'" --}}
         </div>
         </div>
         <div class="col-md-4 mt-3">
@@ -104,13 +105,19 @@
         <div class="col-md-4 mt-3">
             <h5 class="text-center text-white">Betting site</h5>
             <div class="card-body">
-            <img src="images/betting.png" class="img-fluid" alt="">
+            <img src="images/betting.PNG" class="img-fluid" alt="">
         </div>
         </div>
         <div class="col-md-4 mt-3">
             <h5 class="text-center text-white">Portfolio</h5>
             <div class="card-body">
-            <img src="images/portfolio.png" class="img-fluid" alt="">
+            <img src="images/portfolio.PNG" class="img-fluid" alt="">
+        </div>
+        </div>
+        <div class="col-md-4 mt-3">
+            <h5 class="text-center text-white">Airline management system</h5>
+            <div class="card-body">
+            <img src="images/air.png" class="img-fluid" alt="">
         </div>
         </div>
     </div>
