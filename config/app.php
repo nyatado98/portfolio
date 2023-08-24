@@ -122,7 +122,7 @@ return [
     |
     */
 
-    'key' => '4uwRKQTiwg5+Km1/jJY6SIn1bHTckl2JYWzFk03AVPI=',
+    'key' => 'sfp9ct5pl5mmaocfa1un8dmsxfn1xng0',
 
     'cipher' => 'AES-256-CBC',
 
