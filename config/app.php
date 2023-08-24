@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Portfolio'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,9 +55,9 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => 'https://portfolio-production-fd61.up.railway.app/',
 
-    'asset_url' => env('ASSET_URL'),
+    'asset_url' => 'https://portfolio-production-fd61.up.railway.app/',
 
     /*
     |--------------------------------------------------------------------------
@@ -122,7 +122,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    'key' => '4uwRKQTiwg5+Km1/jJY6SIn1bHTckl2JYWzFk03AVPI=',
 
     'cipher' => 'AES-256-CBC',
 
