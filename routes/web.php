@@ -18,5 +18,8 @@ use App\Http\Controllers\Download;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('index', function(){
+    return view('index');
+});
 Route::get('comments',[Comment::class, 'comments']);
 Route::get('download',[Download::class,'download']);
