@@ -92,13 +92,13 @@
             <h5 class="text-center text-white">Cyber Management System</h5>
             <div class="card-body">
             <div class="card-body portfolio-wrap">
-            <img src="{{asset('images/cyber.png')}}" class="img-fluid" alt="">
+            <img src="{{asset('images/cyber.PNG')}}" class="img-fluid" alt="">
             {{-- onmouseover="this.style.opacity='.5'" --}}
             <div class="portfolio-info">
             <h4>Cyber Management System</h4>
             <p>Web system</p>
             <div class="portfolio-links">
-              <a href="images/rental.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
+              <a href="images/cyber.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
               <a href="projects.php" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -108,12 +108,12 @@
         <div class="col-md-4 mt-3">
             <h5 class="text-center text-white">Rental Management System</h5>
             <div class="card-body portfolio-wrap">
-            <img src="images/rental.png" class="img-fluid" alt="">
+            <img src="images/rental.PNG" class="img-fluid" alt="">
              <div class="portfolio-info">
             <h4>Rental Management System</h4>
             <p>Web system</p>
             <div class="portfolio-links">
-              <a href="images/rental.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
+              <a href="images/rental.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
               <a href="projects.php" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -123,12 +123,12 @@
             <h5 class="text-center text-white">High School Website</h5>
             <div class="card-body">
             <div class="card-body portfolio-wrap">
-            <img src="images/school.png" class="img-fluid" alt="">
+            <img src="images/school.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
             <h4>High School Website</h4>
             <p>Web system</p>
             <div class="portfolio-links">
-              <a href="images/school.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
+              <a href="images/school.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
               <a href="projects.php" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -139,12 +139,12 @@
             <h5 class="text-center text-white">School mangement System</h5>
             <div class="card-body">
             <div class="card-body portfolio-wrap">
-            <img src="images/project.png" class="img-fluid" alt="">
+            <img src="images/project.PNG" class="img-fluid" alt="">
              <div class="portfolio-info">
             <h4>School Management System</h4>
             <p>Web system</p>
             <div class="portfolio-links">
-              <a href="images/project.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
+              <a href="images/project.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
               <a href="projects.php" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
