@@ -10,7 +10,7 @@ class Download extends Controller
     //
     public function download(){
         $filename = 'Dan_Nyatado_CV.doc';
-        $doc = storage_path('app/public/document/Dan_Nyatado_CV.doc');
+        $doc = storage_path('document/Dan_Nyatado_CV.doc');
         return response()->download($doc);
     //    return  Storage::download('app/document/' .$filename);
     }
