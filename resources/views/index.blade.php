@@ -181,7 +181,7 @@
             <p>Web system</p>
             <div class="portfolio-links">
               <a href="images/portfolio.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
-              <a href="projects.php" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
