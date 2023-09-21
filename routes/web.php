@@ -23,3 +23,4 @@ Route::get('index', function(){
 });
 Route::get('comments',[Comment::class, 'comments']);
 Route::get('download',[Download::class,'download']);
+//Route
