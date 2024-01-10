@@ -1,0 +1,24 @@
+name: Deploy to InfinityFree
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Deploy to InfinityFree
+        uses: samuelmeuli/deploy-to-ftp@v3
+        with:
+          server: ${{ secrets.ftpupload.net }}
+          username: ${{ secrets.if0_34411164 }}
+          password: ${{ secrets.EdGQCyOQTbIGZz }}
+          local-dir: ./
+          remote-dir: /htdocs
+          exclude: '.git*'
