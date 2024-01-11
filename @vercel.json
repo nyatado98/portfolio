@@ -6,10 +6,25 @@
       "use": "@vercel/php"
     }
   ],
-  "routes": [
+  "routes": [{
+    "src": "/bootstrap/(.*)",
+            "dest": "/public/bootstrap/"
+        },
+        {
+            "src": "/favicon/(.*)",
+            "dest": "/public/favicon/"
+        },
+        {
+            "src": "/css/(.*)",
+            "dest": "/public/css/"
+        }, {
+            "src": "/images/(.*)",
+            "dest": "/public/images/"
+        },
     {
       "src": "/(.*)",
       "dest": "public/index.php"
-    }
+    },
+
   ]
 }
